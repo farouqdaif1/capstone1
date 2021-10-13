@@ -1,0 +1,222 @@
+// Lato Font 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+//cocogoose Font 
+@font-face {
+    font-family: "cocogoose-pro";
+    src: url("/Fonts/cocogoose-pro.regular.ttf");
+}
+// Font And color
+$main-color:#D3D3D3;
+$sub-color:#272A31;
+$sf-color:#ec5242;
+$f-main: "cocogoose-pro";
+$f-sub:'Lato', sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    header{
+        display: flex;
+        align-items: center;
+        padding:  0px 12px;
+        font-size: 42px;
+        color: $sub-color;
+        background-color:rgba(211,211 ,211 , 0.5);
+        width: 100%;
+        height: 67px;
+        position: fixed;
+        .nav-ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            background-color:rgba(211, 211, 211,0.9);
+            width: 100%;
+            left: 0;
+            top: 0;
+            #close{
+            display: flex;
+            width: 80%;
+            margin-top: 6%;
+                .close-btn{
+                    font-size: 50px;
+                    color: $sub-color;
+                    outline: none;
+                    border: none;
+                    background: none;
+                }
+            }
+            .to-ul{
+                padding: 5%;
+                .menu{
+                    list-style: none;
+                    li{
+                    padding: 5%;
+                    margin-bottom:35%;
+                        a{
+                            text-decoration: none;
+                            color: $sub-color;
+                        }
+                    }
+                }
+            }
+            .div{
+                height: 500px;
+            }
+        }
+    .active{
+        display:none;
+    }
+}
+        }
+    main{
+            .headline{
+            background-image:url("/image/Untitled-4.png");
+            background-repeat:no-repeat ;
+            background-size: cover;
+            color: $sf-color;
+            padding:5%;
+                .open-intro{
+                    margin-top :15%;
+                    font-family:$f-sub;
+                    font-size: 22px;
+                    padding:2%;
+                }
+                .open{
+                    font-family: $f-main;
+                    font-size: 32px;
+                    padding:3%;
+                }
+                .contact{
+                    display: flex;
+                    flex-direction: column;
+                    color: $sub-color;
+                    .f-para{
+                        text-align: center;
+                        background-color:white;
+                        font-family: $f-sub;
+                        line-height: 25px;
+                    }
+                    .event{
+                        font-family: $f-sub;
+                        margin-top: 5%;
+                        text-align: center;
+                        .email{
+                            margin-top: 5%;
+                        }
+                    }
+                }
+        
+            }
+            .cont{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 3%;
+                h2{
+                    font-family: $f-sub;
+                    color: $sub-color;
+                }
+                .line{
+                    border: 1px $sf-color solid;
+                    width: 15%; 
+                    margin:2%;
+                }
+                .mo-par{
+                    font-family: $f-sub;
+                    color: $sub-color;
+                    margin-bottom: 5%;
+                }
+                .log{
+                    border: 1px solid $sub-color;
+                    width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        
+                        width: 125px;
+                        height: 125px;
+                    }
+                }
+            }
+            .past{
+                margin-top: 10%;
+                .past-con{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 3%;
+                    .p-c{
+                        padding: 3%;
+                        margin: 5%;
+                        font-family: $f-sub;
+                        color: $sub-color;
+                    }
+                    .pic{
+                        img{
+                            width: 100%;
+                            margin-bottom: 10%;
+                        }
+                    }
+                }
+
+            }
+            .partener{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                padding:5%;               
+                background-color: $sub-color;
+                .title-p{
+                    display: flex;
+                    flex-direction: column;
+                    color: $main-color;
+                    font-size: 2rem;
+                    .line-p{
+                        border:1px solid $sf-color;
+                        width:30%;
+                        align-self: center;
+                    }
+                }
+                .p-list{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    .ph{
+                        width:33%;
+                    img{
+                        width: 100%;
+                    
+                    }
+                }
+            }
+            }
+        }
+        footer{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #fff;
+            color: $sub-color;
+            padding: 5%;
+                .log{
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                    width: 150px;
+                    height: 150px;
+                    }
+                }
+                .p-footer{
+                    padding: 3%;
+                    font-family: $f-sub;
+                    font-size: 16px;
+                    text-align: left;
+                }
+
+        }

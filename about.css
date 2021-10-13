@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@font-face {
+  font-family: "cocogoose-pro";
+  src: url("/Fonts/cocogoose-pro.regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 12px;
+  font-size: 42px;
+  color: #272A31;
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 100%;
+  height: 67px;
+  position: fixed;
+}
+
+body header .nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.9);
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+body header .nav-ul #close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-top: 6%;
+}
+
+body header .nav-ul #close .close-btn {
+  font-size: 50px;
+  color: #272A31;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+body header .nav-ul .to-ul {
+  padding: 5%;
+}
+
+body header .nav-ul .to-ul .menu {
+  list-style: none;
+}
+
+body header .nav-ul .to-ul .menu li {
+  padding: 5%;
+  margin-bottom: 35%;
+}
+
+body header .nav-ul .to-ul .menu li a {
+  text-decoration: none;
+  color: #272A31;
+}
+
+body header .nav-ul .div {
+  height: 500px;
+}
+
+body header .active {
+  display: none;
+}
+
+main .headline {
+  background-image: url("/image/Untitled-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ec5242;
+  padding: 5%;
+}
+
+main .headline .open-intro {
+  margin-top: 15%;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  padding: 2%;
+}
+
+main .headline .open {
+  font-family: "cocogoose-pro";
+  font-size: 32px;
+  padding: 3%;
+}
+
+main .headline .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #272A31;
+}
+
+main .headline .contact .f-para {
+  text-align: center;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  line-height: 25px;
+}
+
+main .headline .contact .event {
+  font-family: "Lato", sans-serif;
+  margin-top: 5%;
+  text-align: center;
+}
+
+main .headline .contact .event .email {
+  margin-top: 5%;
+}
+
+main .cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+}
+
+main .cont h2 {
+  font-family: "Lato", sans-serif;
+  color: #272A31;
+}
+
+main .cont .line {
+  border: 1px #ec5242 solid;
+  width: 15%;
+  margin: 2%;
+}
+
+main .cont .mo-par {
+  font-family: "Lato", sans-serif;
+  color: #272A31;
+  margin-bottom: 5%;
+}
+
+main .cont .log {
+  border: 1px solid #272A31;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .cont .log img {
+  width: 125px;
+  height: 125px;
+}
+
+main .past {
+  margin-top: 10%;
+}
+
+main .past .past-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+}
+
+main .past .past-con .p-c {
+  padding: 3%;
+  margin: 5%;
+  font-family: "Lato", sans-serif;
+  color: #272A31;
+}
+
+main .past .past-con .pic img {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+main .partener {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 5%;
+  background-color: #272A31;
+}
+
+main .partener .title-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #D3D3D3;
+  font-size: 2rem;
+}
+
+main .partener .title-p .line-p {
+  border: 1px solid #ec5242;
+  width: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main .partener .p-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .partener .p-list .ph {
+  width: 33%;
+}
+
+main .partener .p-list .ph img {
+  width: 100%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  color: #272A31;
+  padding: 5%;
+}
+
+footer .log {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .log img {
+  width: 150px;
+  height: 150px;
+}
+
+footer .p-footer {
+  padding: 3%;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+/*# sourceMappingURL=about.css.map */
