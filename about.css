@@ -80,6 +80,40 @@ body header .active {
   display: none;
 }
 
+footer {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  color: #272a31;
+  padding: 5%;
+}
+
+footer .log1 {
+  width: 50%;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer .log1 img {
+  width: 150px;
+  height: 150px;
+}
+
+footer .p-footer {
+  padding: 3%;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
 main .headline {
   background-image: url("/image/Untitled-4.png");
   background-repeat: no-repeat;

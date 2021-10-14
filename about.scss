@@ -84,6 +84,33 @@ body {
   }
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  color: $sub-color;
+  padding: 5%;
+
+  .log1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .p-footer {
+    padding: 3%;
+    font-family: $f-sub;
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
 main {
   .headline {
     background-image: url("/image/Untitled-4.png");
