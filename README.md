@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## My Portfolio
+## My Capstone project
 
->  in this project, I will set up the first milestone in the process of creating My website. My goal here is to master n order to lay out the elements on the page you should use Flexbox in all 2 sections.
-You don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
+>  In this project, I will build a conference page with html, scss and javascript.
 
 ![screenshot](./app_screenshot.png)
 
