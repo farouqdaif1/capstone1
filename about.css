@@ -304,6 +304,7 @@ main .partener .p-list .ph img {
     -ms-flex-direction: column;
     flex-direction: column;
     font-size: 16px;
+    z-index: 10;
   }
 
   body header .nav-b {
