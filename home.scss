@@ -17,73 +17,6 @@ $f-sub:'Lato', sans-serif;
 }
 
 body {
-  header {
-    display: flex;
-    align-items: center;
-    padding: 0 12px;
-    font-size: 42px;
-    color: $sub-color;
-    background-color: rgba(211, 211, 211, 0.5);
-    width: 100%;
-    height: 67px;
-    position: fixed;
-
-    .nav-a {
-      display: none;
-    }
-
-    .nav-ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      background-color: rgba(211, 211, 211, 0.9);
-      width: 100%;
-      left: 0;
-      top: 0;
-
-      #close {
-        display: flex;
-        width: 80%;
-        margin-top: 6%;
-
-        .close-btn {
-          font-size: 50px;
-          color: $sub-color;
-          outline: none;
-          border: none;
-          background: none;
-        }
-      }
-
-      .to-ul {
-        padding: 5%;
-
-        .menu {
-          list-style: none;
-
-          li {
-            padding: 5%;
-            margin-bottom: 35%;
-
-            a {
-              text-decoration: none;
-              color: $sub-color;
-            }
-          }
-        }
-      }
-
-      .div {
-        height: 500px;
-      }
-    }
-
-    .active {
-      display: none;
-    }
-  }
-
   .headline {
     background-image: url("/image/Untitled-4.png");
     background-repeat: no-repeat;
@@ -126,6 +59,33 @@ body {
       border: 1px solid #fff;
       padding: 5%;
       font-size: 22px;
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    color: $sub-color;
+    padding: 5%;
+
+    .log {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    .p-footer {
+      padding: 3%;
+      font-family: $f-sub;
+      font-size: 16px;
+      text-align: left;
     }
   }
 
@@ -215,6 +175,73 @@ body {
         text-decoration: none;
         color: white;
       }
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 42px;
+    color: $sub-color;
+    background-color: rgba(211, 211, 211, 0.5);
+    width: 100%;
+    height: 67px;
+    position: fixed;
+
+    .nav-a {
+      display: none;
+    }
+
+    .nav-ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      background-color: rgba(211, 211, 211, 0.9);
+      width: 100%;
+      left: 0;
+      top: 0;
+
+      #close {
+        display: flex;
+        width: 80%;
+        margin-top: 6%;
+
+        .close-btn {
+          font-size: 50px;
+          color: $sub-color;
+          outline: none;
+          border: none;
+          background: none;
+        }
+      }
+
+      .to-ul {
+        padding: 5%;
+
+        .menu {
+          list-style: none;
+
+          li {
+            padding: 5%;
+            margin-bottom: 35%;
+
+            a {
+              text-decoration: none;
+              color: $sub-color;
+            }
+          }
+        }
+      }
+
+      .div {
+        height: 500px;
+      }
+    }
+
+    .active {
+      display: none;
     }
   }
 
@@ -314,33 +341,6 @@ body {
       }
     }
   }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #fff;
-    color: $sub-color;
-    padding: 5%;
-
-    .log {
-      width: 50%;
-      display: flex;
-      justify-content: center;
-
-      img {
-        width: 150px;
-        height: 150px;
-      }
-    }
-
-    .p-footer {
-      padding: 3%;
-      font-family: $f-sub;
-      font-size: 16px;
-      text-align: left;
-    }
-  }
 }
 $breakpoint-tablet: 768px;
 
@@ -361,37 +361,6 @@ $breakpoint-tablet: 768px;
         display: block;
         width: 100%;
         position: fixed;
-
-        .nav-blak {
-          margin: 0%;
-          padding: 0%;
-
-          .black {
-            background-color: black;
-
-            .top {
-              width: 100%;
-              height: 30px;
-              margin-left: -10%;
-              display: flex;
-              justify-content: flex-end;
-              list-style: none;
-
-              li {
-                padding: 0.3%;
-                margin: 0.3%;
-                margin-left: 1.5%;
-
-                a {
-                  font-family: $f-sub;
-                  text-decoration: none;
-                  color: #fff;
-                  font-size: 16px;
-                }
-              }
-            }
-          }
-        }
 
         .nav-white {
           display: flex;
@@ -434,6 +403,37 @@ $breakpoint-tablet: 768px;
             }
           }
         }
+
+        .nav-blak {
+          margin: 0%;
+          padding: 0%;
+
+          .black {
+            background-color: black;
+
+            .top {
+              width: 100%;
+              height: 30px;
+              margin-left: -10%;
+              display: flex;
+              justify-content: flex-end;
+              list-style: none;
+
+              li {
+                padding: 0.3%;
+                margin: 0.3%;
+                margin-left: 1.5%;
+
+                a {
+                  font-family: $f-sub;
+                  text-decoration: none;
+                  color: #fff;
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
       }
     }
 
@@ -468,6 +468,29 @@ $breakpoint-tablet: 768px;
           padding: 1%;
           border: none;
           background-color: $main-color;
+        }
+      }
+
+      .partener {
+        padding: 2% 5%;
+
+        .title-p {
+          h3 {
+            font-family: $f-sub;
+            font-size: 1.3rem;
+          }
+        }
+
+        .p-list {
+          padding: 5%;
+          padding-bottom: 2%;
+          display: flex;
+          flex-wrap: nowrap;
+
+          .ph {
+            width: 10%;
+            margin-left: 2%;
+          }
         }
       }
 
@@ -509,7 +532,6 @@ $breakpoint-tablet: 768px;
             }
 
             h3 {
-              margin: 0%;
               padding: 1%;
               margin: 1%;
               font-size: 21px;
@@ -558,29 +580,6 @@ $breakpoint-tablet: 768px;
           .person {
             width: 50%;
             height: 33%;
-          }
-        }
-      }
-
-      .partener {
-        padding: 2% 5%;
-
-        .title-p {
-          h3 {
-            font-family: $f-sub;
-            font-size: 1.3rem;
-          }
-        }
-
-        .p-list {
-          padding: 5%;
-          padding-bottom: 2%;
-          display: flex;
-          flex-wrap: nowrap;
-
-          .ph {
-            width: 10%;
-            margin-left: 2%;
           }
         }
       }
