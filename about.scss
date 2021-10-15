@@ -113,7 +113,7 @@ footer {
 
 main {
   .headline {
-    background-image: url("/image/Untitled-4.png");
+    background-image: url("image/Untitled-4.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: $sf-color;
@@ -386,7 +386,7 @@ $breakpoint-tablet: 1000px;
 
     main {
       .headline {
-        background-image: url("/image/1234.png");
+        background-image: url("image/1234.png");
         background-repeat: no-repeat;
         background-size: 150% 100%;
         padding: 8%;
@@ -403,7 +403,6 @@ $breakpoint-tablet: 1000px;
           width: 50%;
           padding: 1%;
           font-size: 36px;
-          // background-color:rgba(211, 211, 211, 0.622);
           margin-bottom: 3%;
           text-align: center;
         }
@@ -414,13 +413,10 @@ $breakpoint-tablet: 1000px;
 
           .event1 {
             font-weight: 900;
-            // background-color: rgba(211, 211, 211, 0.5);
           }
 
           .email {
-            // margin-bottom: 15%;
             font-weight: 900;
-            // background-color: rgba(211, 211, 211, 0.5);;
           }
         }
       }

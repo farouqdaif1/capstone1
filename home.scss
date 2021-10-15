@@ -18,7 +18,7 @@ $f-sub:'Lato', sans-serif;
 
 body {
   .headline {
-    background-image: url("/image/Untitled-4.png");
+    background-image: url("image/Untitled-4.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: $sf-color;
@@ -91,7 +91,7 @@ body {
 
   .main {
     color: #fff;
-    background-image: url("/image/repeat-bg.png");
+    background-image: url("image/repeat-bg.png");
     display: flex;
     flex-direction: column;
 
@@ -440,7 +440,7 @@ $breakpoint-tablet: 768px;
 
     main {
       .headline {
-        background-image: url("/image/tmtm.png");
+        background-image: url("image/tmtm.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 8%;

@@ -9,7 +9,7 @@
 }
 
 body .headline {
-  background-image: url("/image/Untitled-4.png");
+  background-image: url("image/Untitled-4.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ec5242;
@@ -89,7 +89,7 @@ body footer .p-footer {
 
 body .main {
   color: #fff;
-  background-image: url("/image/repeat-bg.png");
+  background-image: url("image/repeat-bg.png");
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -507,7 +507,7 @@ body .partener .p-list .ph img {
   }
 
   body main .headline {
-    background-image: url("/image/tmtm.png");
+    background-image: url("image/tmtm.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 8%;

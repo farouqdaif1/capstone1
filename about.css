@@ -115,7 +115,7 @@ footer .p-footer {
 }
 
 main .headline {
-  background-image: url("/image/Untitled-4.png");
+  background-image: url("image/Untitled-4.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ec5242;
@@ -434,7 +434,7 @@ main .partener .p-list .ph img {
   }
 
   body main .headline {
-    background-image: url("/image/1234.png");
+    background-image: url("image/1234.png");
     background-repeat: no-repeat;
     background-size: 150% 100%;
     padding: 8%;
