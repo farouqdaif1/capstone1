@@ -362,9 +362,9 @@ $breakpoint-tablet: 1000px;
       display: flex;
       flex-direction: row;
       align-items: center;
-      background-color: #fff;
+      background-color: $main-color;
       color: $sub-color;
-      padding: 5%;
+      padding: 0%;
 
       .log1 {
         width: 50%;

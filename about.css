@@ -409,9 +409,9 @@ main .partener .p-list .ph img {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #d3d3d3;
     color: #272a31;
-    padding: 5%;
+    padding: 0%;
   }
 
   body footer .log1 {
